@@ -1,0 +1,107 @@
+.container .section3 {
+  background-color: #293039;
+  width: 1280px;
+  height: 577px;
+}
+.container .section3_title {
+  padding-top: 100px;
+  text-align: center;
+  font-size: 40px;
+  font-family: "Fraunces", serif;
+  color: #fff;
+}
+.container .section3_content {
+  width: 540px;
+  text-align: center;
+  padding-left: 370px;
+  color: #fff;
+  font-family: "Barlow", sans-serif;
+}
+.container .section3 .cardbox {
+  display: flex;
+  justify-content: space-around;
+}
+.container .section3 .cardbox .section3_card {
+  width: 350px;
+  height: 382px;
+  background-color: #239e98;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 72px;
+}
+.container .section3 .cardbox .section3_card:hover {
+  transform: scale(1.05);
+  position: relative;
+  background-color: #1b6361;
+}
+.container .section3 .cardbox .section3_card_title {
+  font-size: 24px;
+  font-family: "Fraunces", serif;
+  color: #fff;
+}
+.container .section3 .cardbox .section3_card_content {
+  text-align: center;
+  width: 255px;
+  color: #fff;
+}
+
+@media only screen and (max-width: 768px) {
+  .container .section3 {
+    background-color: #293039;
+    width: 720px;
+    height: 573px;
+  }
+  .container .section3_title {
+    padding-top: 100px;
+    text-align: center;
+    font-size: 40px;
+    font-family: "Fraunces", serif;
+    color: #fff;
+  }
+  .container .section3_content {
+    width: 540px;
+    text-align: center;
+    padding-left: 74px;
+    color: #fff;
+    font-family: "Barlow", sans-serif;
+  }
+  .container .section3 .cardbox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 573px;
+  }
+  .container .section3 .cardbox .section3_card {
+    margin-top: 24px;
+    width: 573px;
+    height: 180px;
+    background-color: #239e98;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    padding-top: 0px;
+  }
+  .container .section3 .cardbox .section3_card:hover {
+    transform: scale(1.05);
+    position: relative;
+    background-color: #1b6361;
+  }
+  .container .section3 .cardbox .section3_card_image {
+    display: inline-block;
+    margin-left: 70px;
+    margin-right: 55px;
+  }
+  .container .section3 .cardbox .section3_card_title {
+    font-size: 24px;
+    font-family: "Fraunces", serif;
+    color: #fff;
+  }
+  .container .section3 .cardbox .section3_card_content {
+    text-align: left;
+    width: 255px;
+    color: #fff;
+  }
+}/*# sourceMappingURL=section3.css.map */

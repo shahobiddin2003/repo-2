@@ -1,0 +1,105 @@
+.container header {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 44px;
+  max-width: 100%;
+  min-width: 689px;
+}
+.container header .header_logo .header_logo_img {
+  width: 280px;
+  height: 35px;
+}
+.container header .header_nav {
+  width: 280px;
+  padding-right: 80px;
+}
+.container header .header_nav_menu {
+  display: none;
+}
+.container header .header_nav .header_nav_list {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
+.container header .header_nav .header_nav_list .header_nav_list_item {
+  font-size: 12px;
+  font-family: "Barlow", sans-serif;
+  color: #83888f;
+}
+.container header .header_nav .header_nav_list .header_nav_list_item:hover {
+  font-weight: 600;
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 768px) {
+  .container header {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 44px;
+    max-width: 100%;
+    min-width: 689px;
+  }
+  .container header .header_logo .header_logo_img {
+    width: 203px;
+    height: 24px;
+  }
+  .container header .header_nav {
+    width: 280px;
+    padding-right: 80px;
+  }
+  .container header .header_nav_menu {
+    display: none;
+  }
+  .container header .header_nav .header_nav_list {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+  }
+  .container header .header_nav .header_nav_list .header_nav_list_item {
+    font-size: 12px;
+    font-family: "Barlow", sans-serif;
+    color: #83888f;
+  }
+  .container header .header_nav .header_nav_list .header_nav_list_item:hover {
+    font-weight: 600;
+    transform: scale(1.1);
+    cursor: pointer;
+  }
+}
+@media only screen and (max-width: 375px) {
+  .container header {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 44px;
+    max-width: 100%;
+    min-width: 689px;
+  }
+  .container header .header_logo .header_logo_img {
+    width: 203px;
+    height: 24px;
+  }
+  .container header .header_nav {
+    width: 280px;
+    padding-right: 0px;
+  }
+  .container header .header_nav_menu {
+    display: block;
+    align-items: right;
+  }
+  .container header .header_nav .header_nav_list {
+    list-style: none;
+    display: none;
+    justify-content: space-between;
+  }
+  .container header .header_nav .header_nav_list .header_nav_list_item {
+    font-size: 12px;
+    font-family: "Barlow", sans-serif;
+    color: #83888f;
+  }
+  .container header .header_nav .header_nav_list .header_nav_list_item:hover {
+    font-weight: 600;
+    transform: scale(1.1);
+    cursor: pointer;
+  }
+}/*# sourceMappingURL=header.css.map */

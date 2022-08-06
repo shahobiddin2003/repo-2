@@ -1,0 +1,126 @@
+.container {
+  .section1 {
+    width: 1280px;
+    height: 600px;
+    border-radius: 10px;
+    background-image: url(../../images/sectionimg1.png);
+
+    .section1_title {
+      font-family: "Fraunces", serif;
+      color: #fff;
+      font-size: 72px;
+      font-weight: 900;
+      padding-top: 117px;
+      margin-left: 85px;
+      width: 493px;
+      height: 145px;
+    }
+    .section1_content {
+      font-family: "Barlow", sans-serif;
+      color: #fff;
+      font-size: 16px;
+      width: 445px;
+      height: 78px;
+      padding-top: 24px;
+      margin-left: 85px;
+    }
+
+    .section1_button {
+      width: 217px;
+      height: 56px;
+      border-radius: 5px;
+      border: none;
+      background-color: #0e8784;
+      margin-left: 85px;
+      margin-top: 56px;
+      color: #fff;
+      font-family: "Fraunces", serif;
+    }
+  }
+}
+@media only screen and (max-width: 768px) {
+  .container {
+    .section1 {
+      width: 720px;
+      height: 600px;
+      border-radius: 10px;
+      background-image: url(../../images/section1.respon.png);
+      background-repeat: no-repeat;
+
+      .section1_title {
+        font-family: "Fraunces", serif;
+        color: #fff;
+        font-size: 48px;
+        font-weight: 900;
+        padding-top: 104px;
+        margin-left: 85px;
+        width: 329px;
+        height: 97px;
+      }
+      .section1_content {
+        font-family: "Barlow", sans-serif;
+        color: #fff;
+        font-size: 12px;
+        width: 398px;
+        height: 75px;
+        padding-top: 32px;
+        margin-left: 85px;
+      }
+
+      .section1_button {
+        width: 217px;
+        height: 56px;
+        border-radius: 5px;
+        border: none;
+        background-color: #0e8784;
+        margin-left: 85px;
+        margin-top: 56px;
+        color: #fff;
+        font-family: "Fraunces", serif;
+      }
+    }
+  }
+}
+@media only screen and (max-width: 375px) {
+  .container {
+    max-width:327px;
+    .section1 {
+      width: 327px;
+      height: 500px;
+      border-radius: 10px;
+      background-image: url(../../images/section1_mobile.png);
+      background-repeat: no-repeat;
+
+      .section1_title {
+        font-family: "Fraunces 9pt";
+        font-style: normal;
+        font-weight: 900;
+        font-size: 40px;
+        line-height: 40px;
+        text-align: center;
+        color: #fefcf7;
+      }
+      .section1_content {
+        font-family: "Barlow";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 25px;
+        text-align: center;
+        color: #fefcf7;
+      }
+
+      .section1_button {
+        width: 217px;
+        height: 56px;
+        border-radius: 5px;
+        border: none;
+        background-color: #0e8784;
+        margin-left: 85px;
+        margin-top: 56px;
+        color: #fff;
+        font-family: "Fraunces", serif;
+      }
+    }
+  }
+}

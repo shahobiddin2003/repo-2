@@ -1,0 +1,89 @@
+.container .section4 {
+  width: 1045px;
+  height: 565px;
+  margin-left: 165px;
+}
+.container .section4 .section4_title {
+  padding-top: 330px;
+  font-size: 72px;
+}
+.container .section4 .section4_element {
+  width: 760px;
+  height: 1px;
+  background-color: #fdd6ba;
+  position: absolute;
+}
+.container .section4 .section4_element .section4_element_ovalbox {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  position: relative;
+  top: -15px;
+  width: 760px;
+}
+.container .numbered {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 160px;
+}
+.container .numbered_cards {
+  width: 285px;
+  height: 355px;
+}
+.container .numbered_cards h4 {
+  font-size: 32px;
+  font-family: "Fraunces", serif;
+  color: #333d4b;
+}
+.container .numbered_cards p {
+  font-size: 16px;
+  color: #333d4b;
+  font-family: "Barlow", sans-serif;
+}
+
+@media only screen and (max-width: 768px) {
+  .container .section4 {
+    width: 689px;
+    height: 565px;
+    margin-left: 100px;
+  }
+  .container .section4 .section4_title {
+    padding-top: 330px;
+    font-size: 72px;
+    width: 412px;
+  }
+  .container .section4 .section4_element {
+    width: 467px;
+    height: 2px;
+    background-color: #fdd6ba;
+    position: absolute;
+  }
+  .container .section4 .section4_element .section4_element_ovalbox {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: relative;
+    top: -15px;
+    width: 467px;
+  }
+  .container .numbered {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 160px;
+    width: 616px;
+  }
+  .container .numbered_cards {
+    width: 223px;
+    height: 371px;
+  }
+  .container .numbered_cards h4 {
+    font-size: 28px;
+    font-family: "Fraunces", serif;
+    color: #333d4b;
+  }
+  .container .numbered_cards p {
+    font-size: 15px;
+    color: #333d4b;
+    font-family: "Barlow", sans-serif;
+  }
+}/*# sourceMappingURL=section4.css.map */

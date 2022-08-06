@@ -1,0 +1,895 @@
+/*# sourceMappingURL=main.css.map */s.com/css2?family=Barlow:ital,wght@1,300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,800&display=swap");
+/*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
+/* Document
+   ========================================================================== */
+/**
+ * 1. Correct the line height in all browsers.
+ * 2. Prevent adjustments of font size after orientation changes in iOS.
+ */
+@import url("https://fonts.googleapis.com/css2?family=Barlow:ital,wght@1,300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,800&display=swap");
+html {
+  line-height: 1.15; /* 1 */
+  -webkit-text-size-adjust: 100%; /* 2 */
+}
+
+/* Sections
+   ========================================================================== */
+/**
+ * Remove the margin in all browsers.
+ */
+body {
+  margin: 0;
+}
+
+/**
+ * Render the `main` element consistently in IE.
+ */
+main {
+  display: block;
+}
+
+/**
+ * Correct the font size and margin on `h1` elements within `section` and
+ * `article` contexts in Chrome, Firefox, and Safari.
+ */
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+/* Grouping content
+   ========================================================================== */
+/**
+ * 1. Add the correct box sizing in Firefox.
+ * 2. Show the overflow in Edge and IE.
+ */
+hr {
+  box-sizing: content-box; /* 1 */
+  height: 0; /* 1 */
+  overflow: visible; /* 2 */
+}
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+pre {
+  font-family: monospace, monospace; /* 1 */
+  font-size: 1em; /* 2 */
+}
+
+/* Text-level semantics
+   ========================================================================== */
+/**
+ * Remove the gray background on active links in IE 10.
+ */
+a {
+  background-color: transparent;
+}
+
+/**
+ * 1. Remove the bottom border in Chrome 57-
+ * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
+ */
+abbr[title] {
+  border-bottom: none; /* 1 */
+  text-decoration: underline; /* 2 */
+  -webkit-text-decoration: underline dotted;
+          text-decoration: underline dotted; /* 2 */
+}
+
+/**
+ * Add the correct font weight in Chrome, Edge, and Safari.
+ */
+b,
+strong {
+  font-weight: bolder;
+}
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+code,
+kbd,
+samp {
+  font-family: monospace, monospace; /* 1 */
+  font-size: 1em; /* 2 */
+}
+
+/**
+ * Add the correct font size in all browsers.
+ */
+small {
+  font-size: 80%;
+}
+
+/**
+ * Prevent `sub` and `sup` elements from affecting the line height in
+ * all browsers.
+ */
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+sup {
+  top: -0.5em;
+}
+
+/* Embedded content
+   ========================================================================== */
+/**
+ * Remove the border on images inside links in IE 10.
+ */
+img {
+  border-style: none;
+}
+
+/* Forms
+   ========================================================================== */
+/**
+ * 1. Change the font styles in all browsers.
+ * 2. Remove the margin in Firefox and Safari.
+ */
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: inherit; /* 1 */
+  font-size: 100%; /* 1 */
+  line-height: 1.15; /* 1 */
+  margin: 0; /* 2 */
+}
+
+/**
+ * Show the overflow in IE.
+ * 1. Show the overflow in Edge.
+ */
+button,
+input { /* 1 */
+  overflow: visible;
+}
+
+/**
+ * Remove the inheritance of text transform in Edge, Firefox, and IE.
+ * 1. Remove the inheritance of text transform in Firefox.
+ */
+button,
+select { /* 1 */
+  text-transform: none;
+}
+
+/**
+ * Correct the inability to style clickable types in iOS and Safari.
+ */
+button,
+[type=button],
+[type=reset],
+[type=submit] {
+  -webkit-appearance: button;
+}
+
+/**
+ * Remove the inner border and padding in Firefox.
+ */
+button::-moz-focus-inner,
+[type=button]::-moz-focus-inner,
+[type=reset]::-moz-focus-inner,
+[type=submit]::-moz-focus-inner {
+  border-style: none;
+  padding: 0;
+}
+
+/**
+ * Restore the focus styles unset by the previous rule.
+ */
+button:-moz-focusring,
+[type=button]:-moz-focusring,
+[type=reset]:-moz-focusring,
+[type=submit]:-moz-focusring {
+  outline: 1px dotted ButtonText;
+}
+
+/**
+ * Correct the padding in Firefox.
+ */
+fieldset {
+  padding: 0.35em 0.75em 0.625em;
+}
+
+/**
+ * 1. Correct the text wrapping in Edge and IE.
+ * 2. Correct the color inheritance from `fieldset` elements in IE.
+ * 3. Remove the padding so developers are not caught out when they zero out
+ *    `fieldset` elements in all browsers.
+ */
+legend {
+  box-sizing: border-box; /* 1 */
+  color: inherit; /* 2 */
+  display: table; /* 1 */
+  max-width: 100%; /* 1 */
+  padding: 0; /* 3 */
+  white-space: normal; /* 1 */
+}
+
+/**
+ * Add the correct vertical alignment in Chrome, Firefox, and Opera.
+ */
+progress {
+  vertical-align: baseline;
+}
+
+/**
+ * Remove the default vertical scrollbar in IE 10+.
+ */
+textarea {
+  overflow: auto;
+}
+
+/**
+ * 1. Add the correct box sizing in IE 10.
+ * 2. Remove the padding in IE 10.
+ */
+[type=checkbox],
+[type=radio] {
+  box-sizing: border-box; /* 1 */
+  padding: 0; /* 2 */
+}
+
+/**
+ * Correct the cursor style of increment and decrement buttons in Chrome.
+ */
+[type=number]::-webkit-inner-spin-button,
+[type=number]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+/**
+ * 1. Correct the odd appearance in Chrome and Safari.
+ * 2. Correct the outline style in Safari.
+ */
+[type=search] {
+  -webkit-appearance: textfield; /* 1 */
+  outline-offset: -2px; /* 2 */
+}
+
+/**
+ * Remove the inner padding in Chrome and Safari on macOS.
+ */
+[type=search]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/**
+ * 1. Correct the inability to style clickable types in iOS and Safari.
+ * 2. Change font properties to `inherit` in Safari.
+ */
+::-webkit-file-upload-button {
+  -webkit-appearance: button; /* 1 */
+  font: inherit; /* 2 */
+}
+
+/* Interactive
+   ========================================================================== */
+/*
+ * Add the correct display in Edge, IE 10+, and Firefox.
+ */
+details {
+  display: block;
+}
+
+/*
+ * Add the correct display in all browsers.
+ */
+summary {
+  display: list-item;
+}
+
+/* Misc
+   ========================================================================== */
+/**
+ * Add the correct display in IE 10+.
+ */
+template {
+  display: none;
+}
+
+/**
+ * Add the correct display in IE 10.
+ */
+[hidden] {
+  display: none;
+}
+
+.container {
+  width: 100%;
+  padding-left: 4%;
+  padding-right: 4%;
+  padding-top: 4%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.container header {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 44px;
+  max-width: 100%;
+  min-width: 689px;
+}
+.container header .header_logo .header_logo_img {
+  width: 280px;
+  height: 35px;
+}
+.container header .header_nav {
+  width: 280px;
+  padding-right: 80px;
+}
+.container header .header_nav_menu {
+  display: none;
+}
+.container header .header_nav .header_nav_list {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
+.container header .header_nav .header_nav_list .header_nav_list_item {
+  font-size: 12px;
+  font-family: "Barlow", sans-serif;
+  color: #83888f;
+}
+.container header .header_nav .header_nav_list .header_nav_list_item:hover {
+  font-weight: 600;
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 768px) {
+  .container header {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 44px;
+    max-width: 100%;
+    min-width: 689px;
+  }
+  .container header .header_logo .header_logo_img {
+    width: 203px;
+    height: 24px;
+  }
+  .container header .header_nav {
+    width: 280px;
+    padding-right: 80px;
+  }
+  .container header .header_nav_menu {
+    display: none;
+  }
+  .container header .header_nav .header_nav_list {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+  }
+  .container header .header_nav .header_nav_list .header_nav_list_item {
+    font-size: 12px;
+    font-family: "Barlow", sans-serif;
+    color: #83888f;
+  }
+  .container header .header_nav .header_nav_list .header_nav_list_item:hover {
+    font-weight: 600;
+    transform: scale(1.1);
+    cursor: pointer;
+  }
+}
+@media only screen and (max-width: 375px) {
+  .container header {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 44px;
+    max-width: 100%;
+    min-width: 689px;
+  }
+  .container header .header_logo .header_logo_img {
+    width: 203px;
+    height: 24px;
+  }
+  .container header .header_nav {
+    width: 280px;
+    padding-right: 0px;
+  }
+  .container header .header_nav_menu {
+    display: block;
+    align-items: right;
+  }
+  .container header .header_nav .header_nav_list {
+    list-style: none;
+    display: none;
+    justify-content: space-between;
+  }
+  .container header .header_nav .header_nav_list .header_nav_list_item {
+    font-size: 12px;
+    font-family: "Barlow", sans-serif;
+    color: #83888f;
+  }
+  .container header .header_nav .header_nav_list .header_nav_list_item:hover {
+    font-weight: 600;
+    transform: scale(1.1);
+    cursor: pointer;
+  }
+}
+.container footer {
+  width: 1280px;
+  height: 120px;
+  background-color: #2c343e;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  top: 450px;
+  margin-bottom: 500px;
+}
+.container footer .footer_logo {
+  width: 236px;
+  height: 26px;
+  margin-left: 50px;
+}
+.container footer .footer_navbar {
+  list-style: none;
+  display: flex;
+  margin-right: 290px;
+}
+.container footer .footer_navbar_list_item {
+  color: #83888f;
+  margin-right: 24px;
+  font-family: "Barlow", sans-serif;
+}
+.container footer .footer_navbar_list_item:hover {
+  transform: scale(1.2);
+  color: #fff;
+}
+.container footer .footer_sites {
+  width: 120px;
+  display: flex;
+  justify-content: space-between;
+  margin-right: 85px;
+}
+.container footer .footer_sites_list_items {
+  display: inline-block;
+}
+
+@media only screen and (max-width: 768px) {
+  .container footer {
+    width: 768px;
+    height: 270px;
+    background-color: #2c343e;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    position: relative;
+    top: 450px;
+    margin-bottom: 500px;
+  }
+  .container footer .footer_logo {
+    width: 236px;
+    height: 26px;
+    margin-left: 50px;
+    margin-top: 54px;
+  }
+  .container footer .footer_navbar {
+    list-style: none;
+    display: flex;
+    margin-right: -23px;
+    margin-top: 32px;
+  }
+  .container footer .footer_navbar_list_item {
+    color: #83888f;
+    margin-right: 24px;
+    font-family: "Barlow", sans-serif;
+  }
+  .container footer .footer_navbar_list_item:hover {
+    transform: scale(1.2);
+    color: #fff;
+  }
+  .container footer .footer_sites {
+    width: 120px;
+    margin-bottom: 54px;
+    display: flex;
+    justify-content: space-between;
+    margin-right: -30px;
+  }
+  .container footer .footer_sites_list_items {
+    display: inline-block;
+  }
+}
+.container .section1 {
+  width: 1280px;
+  height: 600px;
+  border-radius: 10px;
+  background-image: url(../../images/sectionimg1.png);
+}
+.container .section1 .section1_title {
+  font-family: "Fraunces", serif;
+  color: #fff;
+  font-size: 72px;
+  font-weight: 900;
+  padding-top: 117px;
+  margin-left: 85px;
+  width: 493px;
+  height: 145px;
+}
+.container .section1 .section1_content {
+  font-family: "Barlow", sans-serif;
+  color: #fff;
+  font-size: 16px;
+  width: 445px;
+  height: 78px;
+  padding-top: 24px;
+  margin-left: 85px;
+}
+.container .section1 .section1_button {
+  width: 217px;
+  height: 56px;
+  border-radius: 5px;
+  border: none;
+  background-color: #0e8784;
+  margin-left: 85px;
+  margin-top: 56px;
+  color: #fff;
+  font-family: "Fraunces", serif;
+}
+
+@media only screen and (max-width: 768px) {
+  .container .section1 {
+    width: 720px;
+    height: 600px;
+    border-radius: 10px;
+    background-image: url(../../images/section1.respon.png);
+    background-repeat: no-repeat;
+  }
+  .container .section1 .section1_title {
+    font-family: "Fraunces", serif;
+    color: #fff;
+    font-size: 48px;
+    font-weight: 900;
+    padding-top: 104px;
+    margin-left: 85px;
+    width: 329px;
+    height: 97px;
+  }
+  .container .section1 .section1_content {
+    font-family: "Barlow", sans-serif;
+    color: #fff;
+    font-size: 12px;
+    width: 398px;
+    height: 75px;
+    padding-top: 32px;
+    margin-left: 85px;
+  }
+  .container .section1 .section1_button {
+    width: 217px;
+    height: 56px;
+    border-radius: 5px;
+    border: none;
+    background-color: #0e8784;
+    margin-left: 85px;
+    margin-top: 56px;
+    color: #fff;
+    font-family: "Fraunces", serif;
+  }
+}
+@media only screen and (max-width: 375px) {
+  .container {
+    max-width: 327px;
+  }
+  .container .section1 {
+    width: 327px;
+    height: 500px;
+    border-radius: 10px;
+    background-image: url(../../images/section1_mobile.png);
+    background-repeat: no-repeat;
+  }
+  .container .section1 .section1_title {
+    font-family: "Fraunces 9pt";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 40px;
+    text-align: center;
+    color: #fefcf7;
+  }
+  .container .section1 .section1_content {
+    font-family: "Barlow";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25px;
+    text-align: center;
+    color: #fefcf7;
+  }
+  .container .section1 .section1_button {
+    width: 217px;
+    height: 56px;
+    border-radius: 5px;
+    border: none;
+    background-color: #0e8784;
+    margin-left: 85px;
+    margin-top: 56px;
+    color: #fff;
+    font-family: "Fraunces", serif;
+  }
+}
+.container .section2 {
+  padding-top: 278px;
+  display: flex;
+  justify-content: space-between;
+  background-image: url(../images/our_collection.png);
+  background-repeat: no-repeat;
+  background-position-y: 150px;
+  background-position-x: 70px;
+}
+.container .section2_list {
+  list-style: none;
+  display: flex;
+  margin-left: 50px;
+  justify-content: space-between;
+}
+.container .section2_list_item {
+  width: 255px;
+  height: 525px;
+}
+.container .section2_list_item_img {
+  width: 255px;
+  height: 193px;
+}
+.container .section2_list_item_title {
+  font-size: 24px;
+  font-family: "Fraunces", serif;
+  text-align: center;
+}
+.container .section2_list_item_content {
+  font-family: "Barlow", sans-serif;
+  text-align: center;
+}
+
+@media only screen and (max-width: 768px) {
+  .container .section2 {
+    padding-top: 278px;
+    display: flex;
+    justify-content: space-between;
+    background-image: url(../images/ourcollection_res.png);
+    background-repeat: no-repeat;
+    background-position-y: 150px;
+    background-position-x: 70px;
+  }
+  .container .section2_list {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+    justify-content: space-between;
+  }
+  .container .section2_list_item {
+    width: 573px;
+    height: 193px;
+    display: flex;
+  }
+  .container .section2_list_item_img {
+    width: 255px;
+    height: 193px;
+  }
+  .container .section2_list_item_title {
+    font-size: 24px;
+    font-family: "Fraunces", serif;
+    text-align: left;
+  }
+  .container .section2_list_item_content {
+    font-family: "Barlow", sans-serif;
+    text-align: left;
+  }
+}
+.container .section3 {
+  background-color: #293039;
+  width: 1280px;
+  height: 577px;
+}
+.container .section3_title {
+  padding-top: 100px;
+  text-align: center;
+  font-size: 40px;
+  font-family: "Fraunces", serif;
+  color: #fff;
+}
+.container .section3_content {
+  width: 540px;
+  text-align: center;
+  padding-left: 370px;
+  color: #fff;
+  font-family: "Barlow", sans-serif;
+}
+.container .section3 .cardbox {
+  display: flex;
+  justify-content: space-around;
+}
+.container .section3 .cardbox .section3_card {
+  width: 350px;
+  height: 382px;
+  background-color: #239e98;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 72px;
+}
+.container .section3 .cardbox .section3_card:hover {
+  transform: scale(1.05);
+  position: relative;
+  background-color: #1b6361;
+}
+.container .section3 .cardbox .section3_card_title {
+  font-size: 24px;
+  font-family: "Fraunces", serif;
+  color: #fff;
+}
+.container .section3 .cardbox .section3_card_content {
+  text-align: center;
+  width: 255px;
+  color: #fff;
+}
+
+@media only screen and (max-width: 768px) {
+  .container .section3 {
+    background-color: #293039;
+    width: 720px;
+    height: 573px;
+  }
+  .container .section3_title {
+    padding-top: 100px;
+    text-align: center;
+    font-size: 40px;
+    font-family: "Fraunces", serif;
+    color: #fff;
+  }
+  .container .section3_content {
+    width: 540px;
+    text-align: center;
+    padding-left: 74px;
+    color: #fff;
+    font-family: "Barlow", sans-serif;
+  }
+  .container .section3 .cardbox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 573px;
+  }
+  .container .section3 .cardbox .section3_card {
+    margin-top: 24px;
+    width: 573px;
+    height: 180px;
+    background-color: #239e98;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    padding-top: 0px;
+  }
+  .container .section3 .cardbox .section3_card:hover {
+    transform: scale(1.05);
+    position: relative;
+    background-color: #1b6361;
+  }
+  .container .section3 .cardbox .section3_card_image {
+    display: inline-block;
+    margin-left: 70px;
+    margin-right: 55px;
+  }
+  .container .section3 .cardbox .section3_card_title {
+    font-size: 24px;
+    font-family: "Fraunces", serif;
+    color: #fff;
+  }
+  .container .section3 .cardbox .section3_card_content {
+    text-align: left;
+    width: 255px;
+    color: #fff;
+  }
+}
+.container .section4 {
+  width: 1045px;
+  height: 565px;
+  margin-left: 165px;
+}
+.container .section4 .section4_title {
+  padding-top: 330px;
+  font-size: 72px;
+}
+.container .section4 .section4_element {
+  width: 760px;
+  height: 1px;
+  background-color: #fdd6ba;
+  position: absolute;
+}
+.container .section4 .section4_element .section4_element_ovalbox {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  position: relative;
+  top: -15px;
+  width: 760px;
+}
+.container .numbered {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 160px;
+}
+.container .numbered_cards {
+  width: 285px;
+  height: 355px;
+}
+.container .numbered_cards h4 {
+  font-size: 32px;
+  font-family: "Fraunces", serif;
+  color: #333d4b;
+}
+.container .numbered_cards p {
+  font-size: 16px;
+  color: #333d4b;
+  font-family: "Barlow", sans-serif;
+}
+
+@media only screen and (max-width: 768px) {
+  .container .section4 {
+    width: 689px;
+    height: 565px;
+    margin-left: 100px;
+  }
+  .container .section4 .section4_title {
+    padding-top: 330px;
+    font-size: 72px;
+    width: 412px;
+  }
+  .container .section4 .section4_element {
+    width: 467px;
+    height: 2px;
+    background-color: #fdd6ba;
+    position: absolute;
+  }
+  .container .section4 .section4_element .section4_element_ovalbox {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: relative;
+    top: -15px;
+    width: 467px;
+  }
+  .container .numbered {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 160px;
+    width: 616px;
+  }
+  .container .numbered_cards {
+    width: 223px;
+    height: 371px;
+  }
+  .container .numbered_cards h4 {
+    font-size: 28px;
+    font-family: "Fraunces", serif;
+    color: #333d4b;
+  }
+  .container .numbered_cards p {
+    font-size: 15px;
+    color: #333d4b;
+    font-family: "Barlow", sans-serif;
+  }
+}/*# sourceMappingURL=main.css.map */
